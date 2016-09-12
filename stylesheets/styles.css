@@ -1,17 +1,21 @@
 body {
-  background-color: #d8d8d8;
-  padding: 80px;
+  background-color:#d8d8d8;
+  padding:80px;
 }
 h1, h2 {
-  display: inline-block;
+  display:inline-block;
 }
 h1 {
-  font-size: 40px
+  font-size:40px
 }
 h2 {
-  font-size: 20px;
+  font-size:20px;
+}
+#logo {
+   width:200
+   height:auto
 }
 #achatic {
-  width: 600px;
-  height: auto;
+  width:600px;
+  height:auto;
 }
