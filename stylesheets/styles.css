@@ -16,4 +16,6 @@ span {
 }
 logo {
   padding: 40px;
+  width: 200px;
+  height: auto;
 }
