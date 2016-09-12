@@ -14,3 +14,7 @@ h2 {
 span {
   background: #fd0;
 }
+div.title {
+  max-width: 600px;
+  height: auto;
+}
