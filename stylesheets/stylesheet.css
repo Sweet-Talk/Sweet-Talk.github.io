@@ -242,3 +242,8 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+.responsive-image {
+  height: auto;
+  width: 100%;
+}
