@@ -54,9 +54,9 @@ a {
       margin-left: 0; } }
 
 .page-header {
-  color: #fff;
+  color: #d8d8d8;
   text-align: center;
-  background-color: #d8d8d8;
+  background-color: #d8d8d8; }
 
 @media screen and (min-width: 64em) {
   .page-header {
