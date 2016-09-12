@@ -15,7 +15,6 @@ span {
   background: #fd0;
 }
 div.title {
-  background-image:url(https://raw.githubusercontent.com/Sweet-Talk/Sweet-Talk/master/assets/TITLE.png);
-  width: 200px;
+  width: 300px;
   height: auto;
 }
