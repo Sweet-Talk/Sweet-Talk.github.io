@@ -16,6 +16,6 @@ span {
 }
 .logo {
   background: url("https://raw.githubusercontent.com/Sweet-Talk/Sweet-Talk/master/assets/LOGO.png")
-  width: 200px;
-  height: auto;
+  height: 150px;
+  width: auto;
 }
