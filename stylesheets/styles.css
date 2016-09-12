@@ -14,7 +14,8 @@ h2 {
 span {
   background: #fd0;
 }
-logo {
+.logo {
+  background: url("https://raw.githubusercontent.com/Sweet-Talk/Sweet-Talk/master/assets/LOGO.png")
   padding: 40px;
   width: 200px;
   height: auto;
