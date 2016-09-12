@@ -57,6 +57,9 @@ a {
   color: #d8d8d8;
   text-align: center;
   background-color: #d8d8d8; }
+  
+.page-header img {
+  max-width: 100%; }
 
 @media screen and (min-width: 64em) {
   .page-header {
@@ -242,8 +245,3 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
-
-.responsive-image {
-  height: auto;
-  width: 100%;
-}
