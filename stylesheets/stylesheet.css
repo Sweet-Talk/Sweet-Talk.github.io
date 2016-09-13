@@ -278,8 +278,6 @@ a {
   background-image: url("http://i.giphy.com/dvi71IeW9Lv4Q.gif");
   background-repeat: none;
   width: 100%;
-  height: auto;
+  height: 100%;
   position: absolute;
 }
-
-#st-logo
