@@ -352,9 +352,12 @@ a {
 
 .site-footer {
   padding-top: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
   margin-bottom:4rem;
   margin-top: 2rem;
-  border-top: solid 1px #eff0f1; }
+  border-top: solid 2px #000;
+  text-align: center; }
 
 .site-footer-owner {
   display: block;
