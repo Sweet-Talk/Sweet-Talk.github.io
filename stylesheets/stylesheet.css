@@ -1,10 +1,9 @@
 @font-face {
-    font-family: 'bebas_neue_regularregular';
-    src: url('Sweet-Talk/assets/FONTS/bebasneue_regular-webfont.woff2') format('woff2'),
-         url('Sweet-Talk/assets/FONTS/bebasneue_regular-webfont.woff') format('woff');
+    font-family: 'BebasNeueRegular';
+    src: url('../assets/FONTS/bebasneue_regular-webfont.woff2') format('woff2'),
+         url('../assets/FONTS/bebasneue_regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 * {
@@ -25,6 +24,65 @@ a {
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
+
+
+#date {
+  font-size: 2em;
+  position: fixed;
+  margin:0;
+  top: 50%;
+  left: -145px;
+  writing-mode: bt-rl;
+  -webkit-transform: rotate(270deg); 
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+#booking {
+  font-size: 2em;
+  position: fixed;
+  top:50%;
+  right:-170px;
+  margin:0;
+  writing-mode: bt-lr;
+  -webkit-transform: rotate(90deg); 
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+#url {
+  position: fixed;
+  left:0;
+  bottom:0;
+  margin: 0 auto;
+  padding:0;
+  font-size: 2em;
+  width:100%;
+  display: inline-block;
+  background-color: #fff;
+}
+
+#url a {
+  padding:0;
+  float:left;
+  text-align: center;
+  width:100%;
+}
+
+#participants {
+  padding: 1em;
+  background-color: #FFF;
+  font-family: 'BebasNeueRegular';
+}
+
+#participants ul {
+  list-style: none;
+  font-size:1.4em;
+}
 
 .btn {
   display: inline-block;
@@ -133,7 +191,7 @@ a {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: normal;
-  color: #159957; }
+  color: #000; }
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {
@@ -234,7 +292,20 @@ a {
   .main-content {
     margin: 0 1.5em 1.5em 1.5em;
     padding: 0 1.5em 1.5em 1.5em;
-    font-size: 1.1rem; } }
+    font-size: 1.1rem; } 
+
+  #date, #booking {
+    font-size: 2.4em;
+  }
+
+  #date {
+    left:-180px;
+  }
+
+  #booking {
+    right: -210px;
+  }
+}
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .main-content {
@@ -250,6 +321,7 @@ a {
 
 .site-footer {
   padding-top: 2rem;
+  margin-bottom:4rem;
   margin-top: 2rem;
   border-top: solid 1px #eff0f1; }
 
