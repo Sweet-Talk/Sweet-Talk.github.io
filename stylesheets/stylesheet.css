@@ -276,7 +276,7 @@ a {
 
 .fire-header {
   background-image: url("http://i.giphy.com/dvi71IeW9Lv4Q.gif");
-  background-repeat: none;
+  background-repeat: no-repeat;
   width: 100%;
   height: 100%;
   position: absolute;
