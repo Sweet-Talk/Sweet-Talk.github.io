@@ -27,33 +27,50 @@ a {
 
 
 #date {
-  font-size: 3em;
+  font-size: 2em;
+  position: fixed;
+  margin:0;
+  top: 50%;
+  left: -145px;
   writing-mode: bt-rl;
   -webkit-transform: rotate(270deg); 
--moz-transform: rotate(270deg);
--ms-transform: rotate(270deg);
--o-transform: rotate(270deg);
-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
 }
 
 #booking {
-  font-size: 3em;
-  position: absolute;
-  left: 50px;
+  font-size: 2em;
+  position: fixed;
+  top:50%;
+  right:-170px;
+   margin:0;
   writing-mode: bt-lr;
     -webkit-transform: rotate(90deg); 
--moz-transform: rotate(90deg);
--ms-transform: rotate(90deg);
--o-transform: rotate(90deg);
-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 #url {
   position: fixed;
+  margin:auto 0;
+  text-align: center;
   display: block;
-  font-size: 3em;
+  font-size: 2em;
 }
  
+
+#participants {
+  padding: 1em;
+  background-color: #FFF;
+}
+
+#participants ul {
+  list-style: none;
+}
 
 .btn {
   display: inline-block;
@@ -263,7 +280,20 @@ transform: rotate(90deg);
   .main-content {
     margin: 0 1.5em 1.5em 1.5em;
     padding: 0 1.5em 1.5em 1.5em;
-    font-size: 1.1rem; } }
+    font-size: 1.1rem; } 
+
+  #date, #booking {
+    font-size: 2.4em;
+  }
+
+  #date {
+    left:-180px;
+  }
+
+  #booking {
+    right: -210px;
+  }
+}
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .main-content {
