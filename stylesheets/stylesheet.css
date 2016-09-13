@@ -273,3 +273,11 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+#container {
+  background-image: url("http://i.giphy.com/dvi71IeW9Lv4Q.gif");    
+  height: auto;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
