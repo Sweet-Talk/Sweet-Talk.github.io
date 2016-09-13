@@ -279,3 +279,8 @@ a {
    background-image: url("http://i.giphy.com/dvi71IeW9Lv4Q.gif");
    width: 100%;
 }
+
+h2 { 
+   position: absolute; 
+   text-align: center;
+}
