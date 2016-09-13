@@ -274,13 +274,21 @@ a {
   .site-footer {
     font-size: 0.9rem; } }
 
-.fire-image { 
-   position: relative;
-   background-image: url("http://i.giphy.com/dvi71IeW9Lv4Q.gif");
-   width: 100%;
+#container {
+  height: auto;
+  width: 100%;
+  position: relative;
 }
-
-h2 { 
-   position: absolute; 
-   text-align: center;
+#fire-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#fire-text {
+  z-index: 100;
+  position: absolute;
+  font-family: "BebasNeueRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 24px;
+  text-align: center;
 }
