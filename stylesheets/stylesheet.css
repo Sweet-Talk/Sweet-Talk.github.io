@@ -274,14 +274,9 @@ a {
   .site-footer {
     font-size: 0.9rem; } }
 
-#container {
-  height: auto;
+.fire-header
+  background-image: url("http://i.giphy.com/dvi71IeW9Lv4Q.gif")
   width: 100%;
+  height: auto;
   position: absolute;
-}
-
-#fire-image {
-  position: absolute;
-  left: 0;
-  top: 0;
 }
