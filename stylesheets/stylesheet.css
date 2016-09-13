@@ -273,22 +273,3 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
-
-#container {
-  height: auto;
-  width: 100%;
-  position: absolute;
-}
-#fire-image {
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-#fire-text {
-  z-index: 100;
-  position: absolute;
-  font-family: "BebasNeueRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: white;
-  font-size: 24px;
-  text-align: center;
-}
