@@ -273,3 +273,9 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+.fire-image { 
+   position: relative;
+   background-image: url("http://i.giphy.com/dvi71IeW9Lv4Q.gif");
+   width: 100%;
+}
