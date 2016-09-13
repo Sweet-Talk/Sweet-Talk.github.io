@@ -274,10 +274,11 @@ a {
   .site-footer {
     font-size: 0.9rem; } }
 
-.st-logo {
+#st-logo {
   width: 25%;
   height: auto;
   position: absolute;
   margin: auto;
+  top: 0;
   z-index: 100;
 }
