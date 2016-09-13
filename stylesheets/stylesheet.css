@@ -275,9 +275,13 @@ a {
     font-size: 0.9rem; } }
 
 #container {
-  background-image: url("http://i.giphy.com/dvi71IeW9Lv4Q.gif");    
   height: auto;
   width: 100%;
   position: absolute;
+}
+
+#fire-image {
+  position: absolute;
+  left: 0;
   top: 0;
 }
