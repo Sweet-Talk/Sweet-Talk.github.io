@@ -367,11 +367,46 @@ a {
 
 @media screen and (min-width: 64em) {
   .site-footer {
-    font-size: 1rem; } }
+    font-size: 1rem; }
+    
+    .page-header {
+      width:60%;
+      text-align: center;
+      overflow: auto;
+      margin: 0 auto;
+    }
+
+    #logo {
+      float:left;
+      display: inline-block;
+    }
+
+    #title {
+      display: inline-block;
+      float:right;
+    }
+  }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .site-footer {
-    font-size: 1rem; } }
+    font-size: 1rem; } 
+
+    .page-header {
+      width:80%;
+      overflow: auto;
+      margin: 0 auto;
+    }
+
+    #logo {
+      float:left;
+      display: inline-block;
+    }
+
+    #title {
+      display: inline-block;
+      float:right;
+    }
+  }
 
 @media screen and (max-width: 42em) {
   .site-footer {
