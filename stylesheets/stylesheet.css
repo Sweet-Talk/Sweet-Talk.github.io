@@ -277,7 +277,7 @@ a {
 #container {
   height: auto;
   width: 100%;
-  position: relative;
+  position: absolute;
 }
 #fire-image {
   position: absolute;
