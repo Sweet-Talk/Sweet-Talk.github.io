@@ -1,10 +1,9 @@
 @font-face {
-    font-family: 'bebas_neue_regularregular';
-    src: url('Sweet-Talk/assets/FONTS/bebasneue_regular-webfont.woff2') format('woff2'),
-         url('Sweet-Talk/assets/FONTS/bebasneue_regular-webfont.woff') format('woff');
+    font-family: 'BebasNeueRegular';
+    src: url('../assets/FONTS/bebasneue_regular-webfont.woff2') format('woff2'),
+         url('../assets/FONTS/bebasneue_regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 * {
@@ -25,6 +24,36 @@ a {
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
+
+
+#date {
+  font-size: 3em;
+  writing-mode: bt-rl;
+  -webkit-transform: rotate(270deg); 
+-moz-transform: rotate(270deg);
+-ms-transform: rotate(270deg);
+-o-transform: rotate(270deg);
+transform: rotate(270deg);
+}
+
+#booking {
+  font-size: 3em;
+  position: absolute;
+  left: 50px;
+  writing-mode: bt-lr;
+    -webkit-transform: rotate(90deg); 
+-moz-transform: rotate(90deg);
+-ms-transform: rotate(90deg);
+-o-transform: rotate(90deg);
+transform: rotate(90deg);
+}
+
+#url {
+  position: fixed;
+  display: block;
+  font-size: 3em;
+}
+ 
 
 .btn {
   display: inline-block;
@@ -133,7 +162,7 @@ a {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: normal;
-  color: #159957; }
+  color: #000; }
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {
