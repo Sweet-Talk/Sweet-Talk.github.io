@@ -276,8 +276,5 @@ a {
 
 #st-logo {
   position: absolute;
-  margin: auto;
-  top: -10;
-  left: -10;
   z-index: 100;
 }
