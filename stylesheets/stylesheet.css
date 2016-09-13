@@ -45,9 +45,9 @@ a {
   position: fixed;
   top:50%;
   right:-170px;
-   margin:0;
+  margin:0;
   writing-mode: bt-lr;
-    -webkit-transform: rotate(90deg); 
+  -webkit-transform: rotate(90deg); 
   -moz-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   -o-transform: rotate(90deg);
@@ -56,12 +56,22 @@ a {
 
 #url {
   position: fixed;
-  margin:auto 0;
-  text-align: center;
-  display: block;
+  left:0;
+  bottom:0;
+  margin: 0 auto;
+  padding:0;
   font-size: 2em;
+  width:100%;
+  display: inline-block;
+  background-color: #fff;
 }
- 
+
+#url a {
+  padding:0;
+  float:left;
+  text-align: center;
+  width:100%;
+}
 
 #participants {
   padding: 1em;
