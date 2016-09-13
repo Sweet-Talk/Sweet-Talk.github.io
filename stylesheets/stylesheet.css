@@ -274,9 +274,10 @@ a {
   .site-footer {
     font-size: 0.9rem; } }
 
-.fire-header {
-  width: 100%;
+.st-logo {
+  width: 25%;
   height: auto;
   position: absolute;
-  top: 0;
+  margin: auto;
+  z-index: 100;
 }
