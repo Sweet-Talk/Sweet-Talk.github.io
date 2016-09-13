@@ -1,10 +1,19 @@
+@font-face {
+    font-family: 'bebas_neue_regularregular';
+    src: url('Sweet-Talk/assets/FONTS/bebasneue_regular-webfont.woff2') format('woff2'),
+         url('Sweet-Talk/assets/FONTS/bebasneue_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 * {
   box-sizing: border-box; }
 
 body {
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "BebasNeueRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: #000;
