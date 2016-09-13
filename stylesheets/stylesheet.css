@@ -275,7 +275,8 @@ a {
     font-size: 0.9rem; } }
 
 .fire-header {
-  background-image: url("http://i.giphy.com/dvi71IeW9Lv4Q.gif") no-repeat;    
+  background-image: url("http://i.giphy.com/dvi71IeW9Lv4Q.gif");
+  background-repeat: none;
   width: 100%;
   height: auto;
   position: absolute;
