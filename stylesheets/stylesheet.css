@@ -76,10 +76,12 @@ a {
 #participants {
   padding: 1em;
   background-color: #FFF;
+  font-family: 'BebasNeueRegular';
 }
 
 #participants ul {
   list-style: none;
+  font-size:1.4em;
 }
 
 .btn {
@@ -319,6 +321,7 @@ a {
 
 .site-footer {
   padding-top: 2rem;
+  margin-bottom:4rem;
   margin-top: 2rem;
   border-top: solid 1px #eff0f1; }
 
