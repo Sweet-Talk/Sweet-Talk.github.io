@@ -274,8 +274,11 @@ a {
   .site-footer {
     font-size: 0.9rem; } }
 
-.fire-header
+.fire-header {
+  background-image: url("http://i.giphy.com/dvi71IeW9Lv4Q.gif");    
   width: 100%;
   height: 25%;
   position: absolute;
 }
+
+#st-logo
