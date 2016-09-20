@@ -171,12 +171,12 @@ a {
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
     padding: 1.5rem 1.5em;
-    margin: 1.5rem 1.5rem 0 1.5rem; } }
+    margin: 1.5rem 0rem 0 0rem; } }
 
 @media screen and (max-width: 42em) {
   .page-header {
-    padding: 2rem 1rem;
-    margin: 1.5rem 1.5rem 0 1.5rem; } }
+    padding: 2rem 0rem;
+    margin: 1.5rem 0rem 0 0rem; } }
 
 .project-name {
   margin-top: 0;
