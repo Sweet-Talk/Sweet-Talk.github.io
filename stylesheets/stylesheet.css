@@ -20,10 +20,12 @@ body {
   }
 
 a {
-  color: #000;
-  text-decoration: none; }
+  color:#000;
+  text-decoration: underline; }
   a:hover {
-    text-decoration: underline; }
+    color:#666;  
+    text-decoration: underline;
+    text-decoration-color: #666;}
 
 
 #date {
@@ -422,3 +424,46 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+.button {
+    border-radius:0px;
+    background-color:transparent;
+    border:none;
+    outline:none;
+    padding:2px;
+    margin:2px
+    cursor:pointer;
+    transition:all 0.3s;
+    margin:0px;
+}
+
+.button span {
+    background-colour:transparent;
+    text-decoration: underline;
+    cursor:pointer;
+    display:inline-block;
+    position:relative;
+    transition:0.3s;
+}
+
+.button span:after {
+    background-color:transparent;
+    content:'∆';
+    position:absolute;
+    opacity:0;
+    top:0;
+    right:-20px;
+    transition:0.3s;
+}
+
+.button:hover span {
+    background-color:transparent;
+    padding-right:25px;
+}
+
+.button:hover span:after {
+    background-color:transparent;
+    opacity:1;
+    right:0;
+}
+
