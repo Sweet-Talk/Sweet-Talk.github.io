@@ -459,7 +459,7 @@ a {
 
 .button:hover span {
     background-color:transparent;
-    padding-right:25px;
+    padding-right:15px;
 }
 
 .button:hover span:after {
