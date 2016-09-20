@@ -565,3 +565,11 @@ a {
   max-height: 60%;
   overflow: auto;
 }
+
+#speakers {
+  background-color: #d8d8d8;
+  width:60%;
+  margin: 5em 1.5em;
+  padding:1.2em;
+  top:100px;
+}
