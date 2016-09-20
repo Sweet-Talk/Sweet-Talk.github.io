@@ -428,6 +428,7 @@ a {
 .button {
     border-radius:0px;
     background-color:transparent;
+    width:auto;
     border:none;
     outline:none;
     padding:2px;
