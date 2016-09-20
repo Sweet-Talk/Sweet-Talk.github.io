@@ -373,7 +373,7 @@ a {
     font-size: 1rem; }
     
     .page-header {
-      width:60%;
+      width:100%;
       text-align: center;
       overflow: auto;
       margin: 0 auto;
@@ -390,8 +390,7 @@ a {
     }
     
     #banner {
-        float:none
-        display: inline-block;
+        float:none;
     }
   }
 
@@ -400,7 +399,7 @@ a {
     font-size: 1rem; } 
 
     .page-header {
-      width:80%;
+      width:100%;
       overflow: auto;
       margin: 0 auto;
     }
