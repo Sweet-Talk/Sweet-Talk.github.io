@@ -46,7 +46,7 @@ a {
   font-size: 2em;
   position: fixed;
   top:50%;
-  right:-170px;
+  right:-165px;
   margin:0;
   writing-mode: bt-lr;
   -webkit-transform: rotate(90deg); 
