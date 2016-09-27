@@ -114,7 +114,13 @@ a {
 #participants ul {
   list-style: none;
   font-size:1.2em;
-}
+    }
+
+@media screen and (max-width: 42em) {
+#participants ul {
+  list-style: none;
+  font-size:1em;
+    } }
 
 .btn {
   display: inline-block;
