@@ -555,4 +555,9 @@ a {
 #sc-container {
   border: 2px solid #000;
   box-shadow: 0.6em 0.6em 1em rgba(0,0,0,0.6);
+  padding: 0em 1.5em 1em;
+}
+
+#sc-container h1 {
+    font-size: 50px;
 }
