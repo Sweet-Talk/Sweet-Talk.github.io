@@ -66,6 +66,7 @@ a {
   width:100%;
   display: inline-block;
   background-color: #fff;
+  z-index: 999;
 }
 
 #url a {
@@ -497,7 +498,7 @@ a {
     -webkit-transition: all 1s ease-in-out;
     -moz-transition: opacity all 1s ease-in-out;
     transition: all 1s ease-in-out;
-    z-index:100;
+    z-index:99;
     display:none;
     background-color:#d8d8d8;
     box-shadow: 0.6em 0.6em 1em rgba(0,0,0,0.6);
@@ -549,4 +550,11 @@ a {
     text-decoration:none !important;
     text-align:center;
     font-weight:bold;
+}
+
+#sc-container {
+  border: 2px solid #000;
+  background-color: #d8d8d8;
+  font-family: 'BebasNeueRegular';
+  box-shadow: 0.6em 0.6em 1em rgba(0,0,0,0.6);
 }
